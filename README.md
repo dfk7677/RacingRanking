@@ -2,7 +2,7 @@
 A ranking system for (sim)racing based on [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system).
 
 ## Preamble
-Being an active simracer playing [Assetto Corsa Competizione](https://www.assettocorsa.it/competizione/) I was lucky to find a great league which offers cleaner races and a ranking. This is [Low Fuel Motorsport](https://lowfuelmotorsport.com/)
+Being an active simracer playing [Assetto Corsa Competizione](https://www.assettocorsa.it/competizione/) I was lucky to find a great league which offers cleaner races and a ranking. This is [Low Fuel Motorsport](https://lowfuelmotorsport.com/).
 
 In the current season LFM is using a ranking system for rating the drivers according to their results. This leads to drivers racing with opponents close to their level, which in turn offers a much better experience.
 
@@ -18,10 +18,9 @@ The result of this ranking system is that the rating change is more dependent on
 ## An example
 This example compares the rating change of the current system used by LFM and RacingRanking. It is base on the result of race [#24071](https://lowfuelmotorsport.com/events/60/race/24071) in the 25min sprint races in LFM (Coach Dave Series).
 
-Requesting race #24071
-Done
 Using K factor: 6
 Results:
+
 |   Position |   Rating |   Current LMF Rating Change |   Proposed Rating Change |
 |------------|----------|-----------------------------|--------------------------|
 |          1 |     1991 |                          86 |                       32 |
