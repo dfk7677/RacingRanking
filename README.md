@@ -2,7 +2,7 @@
 A ranking system for (sim)racing based on [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system).
 
 ## Preamble
-Being an active simracer playing [Assetto Corsa Competizione](https://www.assettocorsa.it/competizione/) I was lucky to find a great league which offers cleaner races and a ranking. This is [Low Fuel Motorsport](https://lowfuelmotorsport.com/).
+Being an active simracer playing [Assetto Corsa Competizione](https://www.assettocorsa.it/competizione/) I was lucky to find a great league which offers cleaner races and a ranking. This is [Low Fuel Motorsport](https://lowfuelmotorsport.com/). If you are interested in more organized racing, I totally recommend it.
 
 In the current season LFM is using a ranking system for rating the drivers according to their results. This leads to drivers racing with opponents close to their level, which in turn offers a much better experience.
 
@@ -19,6 +19,7 @@ The result of this ranking system is that the rating change is more dependent on
 This example compares the rating change of the current system used by LFM and RacingRanking. It is base on the result of race [#24071](https://lowfuelmotorsport.com/events/60/race/24071) in the 25min sprint races in LFM (Coach Dave Series).
 
 Using K factor: 6
+
 Results:
 
 |   Position |   Rating |   Current LMF Rating Change |   Proposed Rating Change |
@@ -53,3 +54,6 @@ There are other more subtle differences, but I think by now are getting the poin
 
 ## If you want to test by yourself
 There are dependencies, I am not so experienced to explain, so I would recommend installing [Anaconda](https://www.anaconda.com/) and then run the python file with `python ranking.py`. You can change the number of the race (race_id) and the split (split_id) to test any race you want. Just try to choose races with 8+ drivers as these only are ranked in LFM.
+
+# Other improvements
+I tested with a K factor of 6. The K factor can be adjusted depending the duration of the race (higher for longer races), the races of each driver (newer driver gets a higher one, bigger changes to their rating), or ranking of the driver (depending on the range of the driver rating as it is in Chess).
